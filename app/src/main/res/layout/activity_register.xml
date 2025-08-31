@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:gravity="center"
+    android:background="#FFFFFF"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:id="@+id/editTextName"
+        android:hint="Name"
+        android:textColor="@android:color/black"
+        android:textColorHint="#888888"
+        android:background="@drawable/rounded_edittext"
+        android:paddingStart="12dp"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginBottom="16dp"/>
+
+    <EditText
+        android:id="@+id/editTextPhone"
+        android:hint="Phone"
+        android:textColor="@android:color/black"
+        android:textColorHint="#888888"
+        android:background="@drawable/rounded_edittext"
+        android:paddingStart="12dp"
+        android:inputType="phone"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginBottom="16dp"/>
+
+    <EditText
+        android:id="@+id/editTextPassword"
+        android:hint="Password"
+        android:textColor="@android:color/black"
+        android:textColorHint="#888888"
+        android:background="@drawable/rounded_edittext"
+        android:paddingStart="12dp"
+        android:inputType="textPassword"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginBottom="24dp"/>
+
+    <Button
+        android:id="@+id/buttonRegister"
+        android:text="Register"
+        android:backgroundTint="@color/purple_500"
+        android:textColor="@android:color/white"
+        android:background="@drawable/user_bubble"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"/>
+
+    <TextView
+        android:id="@+id/textViewLogin"
+        android:text="Already have an account? Login"
+        android:textColor="@color/black"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"/>
+</LinearLayout>

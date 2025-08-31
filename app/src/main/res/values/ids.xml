@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="btnDeleteContacts" type="id" />
+    <item name="btnViewContacts" type="id" />
+    <item name="listViewContacts" type="id" />
+    <item name="editTextContact5" type="id" />
+    <item name="editTextName5" type="id" />
+    <item name="editTextContact4" type="id" />
+    <item name="editTextName4" type="id" />
+    <item name="editTextContact3" type="id" />
+    <item name="editTextName3" type="id" />
+    <item name="editTextContact2" type="id" />
+    <item name="editTextName2" type="id" />
+    <item name="editTextContact1" type="id" />
+    <item name="editTextName1" type="id" />
+</resources>

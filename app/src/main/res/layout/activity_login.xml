@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:gravity="center"
+    android:background="#FFFFFF"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:id="@+id/editTextPhoneLogin"
+        android:hint="Phone"
+        android:textColor="@android:color/black"
+        android:textColorHint="#888888"
+        android:background="@drawable/rounded_edittext"
+        android:paddingStart="12dp"
+        android:inputType="phone"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginBottom="16dp"/>
+
+    <EditText
+        android:id="@+id/editTextPasswordLogin"
+        android:hint="Password"
+        android:textColor="@android:color/black"
+        android:textColorHint="#888888"
+        android:background="@drawable/rounded_edittext"
+        android:paddingStart="12dp"
+        android:inputType="textPassword"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginBottom="24dp"/>
+
+    <Button
+        android:id="@+id/buttonLogin"
+        android:text="Login"
+        android:textColor="@android:color/white"
+        android:background="@drawable/user_bubble"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/tvGoToRegister"
+        android:layout_width="wrap_content"
+        android:layout_height="48dp"
+        android:text="Don't have an account? Register"
+        android:textColor="@android:color/black"
+        android:textSize="16sp"
+        android:layout_gravity="center"
+        android:layout_marginTop="16dp"
+        android:clickable="true"
+        android:focusable="true" />
+
+
+</LinearLayout>

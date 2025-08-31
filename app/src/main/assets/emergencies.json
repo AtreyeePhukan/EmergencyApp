@@ -1,0 +1,48 @@
+{
+  "emergencies": [
+    {
+      "keywords": ["snake bite", "snake", "venom", "bitten"],
+      "customReply": "⚠️ Snake Bite Emergency!\n\n- Stay calm and still.\n- Keep the bitten part lower than heart level.\n- Do NOT suck out venom.\n- Tie a loose band above the bite.\n- Wait for medical help."
+    },
+    {
+      "keywords": ["fracture", "broken bone", "bone break", "bone"],
+      "customReply": "⚠️ Possible Fracture Detected!\n\n- Immobilize the area.\n- Do NOT try to straighten bones.\n- Apply a cold pack.\n- Call emergency services."
+    },
+    {
+      "keywords": ["burn", "fire", "burn injury", "hot"],
+      "customReply": "🔥 Burn Injury Detected!\n\n- Cool the burn with running water for 10-20 minutes.\n- Do NOT apply ice or oils.\n- Cover with a clean cloth.\n- Seek medical attention if severe."
+    },
+    {
+      "keywords": ["choking", "food stuck", "can't breathe"],
+      "customReply": "😰 Choking Emergency!\n\n- Give 5 back blows between shoulder blades.\n- Perform the Heimlich maneuver.\n- Call emergency help immediately."
+    },
+    {
+      "keywords": ["bleeding", "blood loss", "cut", "wound"],
+      "customReply": "🩸 Severe Bleeding Detected!\n\n- Apply firm pressure with a cloth.\n- Do NOT remove cloth even if soaked — add layers.\n- Keep the wound elevated.\n- Seek emergency medical care."
+    },
+    {
+      "keywords": ["heart attack", "chest pain", "cardiac", "palpitations"],
+      "customReply": "❤️ Heart Attack Suspected!\n\n- Call emergency services immediately.\n- Keep the person calm and sitting.\n- Loosen tight clothes.\n- If conscious, chew one aspirin (if available)."
+    },
+    {
+      "keywords": ["stroke", "face drooping", "slurred speech", "weak arm"],
+      "customReply": "🧠 Stroke Warning Signs!\n\n- FAST: Face drooping, Arm weakness, Speech difficulty, Time to call help.\n- Keep the person calm and lying down.\n- Do NOT give food or water."
+    },
+    {
+      "keywords": ["seizure", "epilepsy", "fits", "convulsion"],
+      "customReply": "⚡ Seizure Detected!\n\n- Protect from injury (remove sharp objects).\n- Do NOT restrain movements.\n- Place the person on their side post-seizure.\n- Call medical help if seizure >5 mins."
+    },
+    {
+      "keywords": ["drowning", "can't swim", "water", "submerged"],
+      "customReply": "🌊 Drowning Emergency!\n\n- Remove the person from water only if safe.\n- Call emergency help.\n- Check for breathing, start CPR if not breathing.\n- Keep them warm if revived."
+    },
+    {
+      "keywords": ["heat stroke", "overheat", "sun", "hot weather"],
+      "customReply": "☀️ Heat Stroke Alert!\n\n- Move to a cool place immediately.\n- Remove excess clothing.\n- Apply cool, wet cloths.\n- Provide sips of water only if conscious.\n- Seek medical help urgently."
+    },
+    {
+      "keywords": ["hypothermia", "cold", "shivering", "freezing"],
+      "customReply": "❄️ Hypothermia Detected!\n\n- Move to a warm room.\n- Remove wet clothing.\n- Use blankets to warm the person.\n- Do NOT apply direct heat.\n- Call emergency services."
+    }
+  ]
+}

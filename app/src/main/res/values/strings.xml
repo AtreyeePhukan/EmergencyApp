@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">ResQ</string>
+    <string name="save_emergency_contacts">Save Emergency Contacts</string>
+    <string name="find_safer_routes">Find Safer Routes</string>
+    <string name="simulate_fake_call">Simulate Fake Call</string>
+    <string name="send_emergency_alert">Send Emergency Alert</string>
+    <string name="live_location_tracking">Live Location Tracking</string>
+</resources>
