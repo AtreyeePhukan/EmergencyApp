@@ -71,7 +71,7 @@ API keys are not included in the repository and should be stored securely.
 4. Build and run the application on an emulator or physical Android device.
 
 ### Project Structure
-
+```bash
 EmergencyApp/
  ├── app/                # Application source code
  │   ├── java/           # Activities, services, and logic
@@ -79,7 +79,7 @@ EmergencyApp/
  ├── gradle/             # Gradle wrapper files
  ├── build.gradle.kts    # Module build configuration
  └── settings.gradle.kts # Project settings
-
+```
 ## Known Limitations
 
 - Safe route suggestions depend on external map services and network availability.
